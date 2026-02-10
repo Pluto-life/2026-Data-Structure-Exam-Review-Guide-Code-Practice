@@ -17,5 +17,4 @@ void Exchange(ElemType A[],int m,int n,int arraySize){
 	Reverse(A,0,m+n-1,arraySize);
 	Reverse(A,0,n-1,arraySize);
 	Reverse(A,n,m+n-1,arraySize);
-	
 }
