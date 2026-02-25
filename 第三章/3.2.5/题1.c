@@ -15,6 +15,6 @@ bool DeQueue(SqQueue &Q,ElemType &x){
 	if(tag==0) return false;
 	x=Q.data[Q.front];
 	Q.front=(Q.front+1)%MaxSize;
-	if(Q.rear==Q.front) Q.tag=0;
+	Q.tag=0;
 	return true;
 }//DeQueue 
